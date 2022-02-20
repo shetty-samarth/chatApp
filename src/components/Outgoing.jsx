@@ -12,7 +12,7 @@ function Outgoing({message}) {
         );
     }
   return (
-    <div className='message' style={{float:'right',marginRight:'18px',color:'white',backgroundColor:'#38A50'}}>
+    <div className='message' style={{float:'right',marginRight:'18px', backgroundColor:'#00FFFF'}}>
         {message.text}
     </div>
   )

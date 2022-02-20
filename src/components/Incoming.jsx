@@ -17,7 +17,7 @@ function Incoming({message, lastMessage}) {
             className='message-image'
             style={{marginLeft: isFirstMessage ? '4px':'48px'}}
         />):
-        (<div className='message' style={{float:'left',marginLeft:isFirstMessage ? '4px':'48px',color:'white',backgroundColor:'#CABCDC'}}>
+        (<div className='message' style={{float:'left',marginLeft:isFirstMessage ? '4px':'48px',backgroundColor:'#FFB853'}}>
         {message.text}
     </div>)
         }
